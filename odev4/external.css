@@ -1,0 +1,131 @@
+html {
+    font-size: 10px;
+    background-color: rgb(45, 50, 50);
+    font-family: 'Kablammo', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+}
+
+
+div {
+    width: 70%;
+    height: 30%;
+    margin: 2rem 10rem;
+    color: rgb(0, 0, 0);
+    object-fit: contain;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 3rem black;
+    border: 0.2rem solid white;
+    background: hsla(351, 100%, 25%, 1);
+
+    background: radial-gradient(circle, hsla(351, 100%, 25%, 1) 0%, hsla(9, 59%, 7%, 1) 100%);
+    
+    background: -moz-radial-gradient(circle, hsla(351, 100%, 25%, 1) 0%, hsla(9, 59%, 7%, 1) 100%);
+    
+    background: -webkit-radial-gradient(circle, hsla(351, 100%, 25%, 1) 0%, hsla(9, 59%, 7%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7f0012", endColorstr="#1b0a07", GradientType=1 );
+}
+
+
+
+div:hover{
+    box-shadow: 0px 0px 3rem rgb(7, 22, 225);
+    border: 0.2rem solid rgb(184, 24, 24);
+}
+#büyükdiv{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+
+img {
+    object-fit: contain;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 3rem black;
+    border: 0.4rem solid rgb(185, 4, 4);
+    overflow: hidden;
+}
+ul{
+    color: rgb(156, 174, 174);
+    height: 30%;
+}
+
+li{
+    width: 400%;
+    height: 5%;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+p{
+    width: 400%;
+    font-size: 1.4rem;
+    border-bottom: 0.3rem double rgb(103, 95, 95);
+    color: rgb(0, 0, 0);
+}
+
+#ul1{
+    font-size: 130%;
+    position: absolute;
+    width: 5%;
+    margin-top: -26%;
+    margin-left: 40%;
+    height: 30%;
+    padding: 3%;
+  
+   
+}
+#ul2{
+    font-size: 130%;
+    position: absolute;
+    width: 5%;
+    margin-top: -26%;
+    margin-left: 40%;
+    height: 30%;
+    padding: 3%;
+ 
+
+}
+#ul3{
+    font-size: 130%;
+    position: absolute;
+     width: 5%;
+    margin-top: -26%;
+    margin-left: 40%;
+    height: 30%;
+    padding: 3%;
+  
+}
+
+
+
+@media screen and (min-width: 300px) {
+html,p{
+font-size: 7px;
+}
+
+
+}
+
+@media screen and (min-width: 600px) {
+html,p{
+font-size: 10px;
+}
+
+}
+@media screen and (min-width: 900px) {
+html,p{
+font-size: 13px;
+}
+
+}
+@media screen and (min-width: 1200px) {
+html,p{
+font-size: 17px;
+
+}
+
+}
